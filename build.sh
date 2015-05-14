@@ -1,3 +1,3 @@
 #!/bin/bash
 
-docker build -t pgrimaud/ubuntu:trusty .
+docker build -t pascalgrimaud/ubuntu .
