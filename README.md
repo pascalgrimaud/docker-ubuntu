@@ -15,7 +15,8 @@ The Docker Hub :
   * [pascalgrimaud/ubuntu/](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/)
 
 
-The Docker builds on [CircleCI](https://circleci.com) get this error when you attempt to change the locale from an Ubuntu image :
+The Docker builds on [CircleCI](https://circleci.com)
+get this error when you attempt to change the locale from an Ubuntu image :
 
 ```
 Step 3 : RUN locale-gen en_US.UTF-8 && echo 'LANG="en_US.UTF-8"' > /etc/default/locale
