@@ -1,4 +1,5 @@
-[![logo](https://raw.githubusercontent.com/pascalgrimaud/docker-ubuntu/master/ubuntu_logo.png)](http://www.ubuntu.com/)
+[![logo](https://raw.githubusercontent.com/pascalgrimaud/docker-ubuntu/master/ubuntu_logo.png)]
+(http://www.ubuntu.com/)
 
 # Information
 
@@ -15,6 +16,16 @@ The Docker Hub :
   * [pascalgrimaud/ubuntu/](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/)
 
 
+This image is used to set the locale to en_US.UTF-8 and to install :
+
+  * python-software-properties
+  * software-properties-common
+  * vim
+  * curl
+  * wget
+  * unzip
+
+
 The Docker builds on [CircleCI](https://circleci.com)
 get this error when you attempt to change the locale from an Ubuntu image :
 
@@ -28,14 +39,6 @@ Generation complete.
  ---> 7f9b8ce08b3c
  ```
 
-This image is used to set the locale to en_US.UTF-8 and to install :
-
-  * python-software-properties
-  * software-properties-common
-  * vim
-  * curl
-  * wget
-  * unzip
 
 # Installation
 You can clone this project and build with docker command :
