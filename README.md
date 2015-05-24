@@ -1,4 +1,4 @@
-[![logo](https://raw.githubusercontent.com/pascalgrimaud/docker-ubuntu/master/ubuntu_logo.png)]
+[![logo](https://raw.githubusercontent.com/pascalgrimaud/docker-ubuntu/master/ubuntu.png)]
 (http://www.ubuntu.com/)
 
 # Information
@@ -24,6 +24,7 @@ This image is used to set the locale to en_US.UTF-8 and to install :
   * curl
   * wget
   * unzip
+  * git
 
 
 The Docker builds on [CircleCI](https://circleci.com)
