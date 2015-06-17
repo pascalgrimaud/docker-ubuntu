@@ -3,19 +3,6 @@
 
 # Information
 
-The base docker image :
-
-  * [ubuntu:14.04](https://registry.hub.docker.com/u/library/ubuntu/)
-
-The GitHub project :
-
-  * [pascalgrimaud/docker-ubuntu](https://github.com/pascalgrimaud/docker-ubuntu/)
-
-The Docker Hub :
-
-  * [pascalgrimaud/ubuntu/](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/)
-
-
 This image is used to set the locale to en_US.UTF-8.
 
 
@@ -31,6 +18,21 @@ cannot change mode of new locale archive: No such file or directory
 Generation complete.
  ---> 7f9b8ce08b3c
  ```
+
+
+
+The base docker image :
+
+  * [ubuntu:14.04](https://registry.hub.docker.com/u/library/ubuntu/)
+
+The GitHub project :
+
+  * [pascalgrimaud/docker-ubuntu](https://github.com/pascalgrimaud/docker-ubuntu/)
+
+The Docker Hub :
+
+  * [pascalgrimaud/ubuntu/](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/)
+
 
 
 # Installation
