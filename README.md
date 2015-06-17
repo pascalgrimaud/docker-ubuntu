@@ -16,15 +16,7 @@ The Docker Hub :
   * [pascalgrimaud/ubuntu/](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/)
 
 
-This image is used to set the locale to en_US.UTF-8 and to install :
-
-  * python-software-properties
-  * software-properties-common
-  * vim
-  * curl
-  * wget
-  * unzip
-  * git
+This image is used to set the locale to en_US.UTF-8.
 
 
 The Docker builds on [CircleCI](https://circleci.com)
@@ -45,9 +37,9 @@ Generation complete.
 You can clone this project and build with docker command :
 
 ```
-git clone https://github.com/pascalgrimaud/docker-ubuntu.git
-cd docker-ubuntu
-docker build -t pascalgrimaud/ubuntu .
+git clone https://github.com/pascalgrimaud/docker-ubuntu.git \
+&& cd docker-ubuntu \
+&& docker build -t pascalgrimaud/ubuntu .
 ```
 
 You can build directly from the [GitHub project](https://github.com/pascalgrimaud/docker-ubuntu/) :
