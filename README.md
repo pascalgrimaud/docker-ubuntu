@@ -1,6 +1,8 @@
 [![logo](https://raw.githubusercontent.com/pascalgrimaud/docker-ubuntu/master/ubuntu.png)]
 (http://www.ubuntu.com/)
 
+
+
 # Information
 
 This image is used to set the locale to en_US.UTF-8.
@@ -18,7 +20,6 @@ cannot change mode of new locale archive: No such file or directory
 Generation complete.
  ---> 7f9b8ce08b3c
  ```
-
 
 
 The base docker image :
