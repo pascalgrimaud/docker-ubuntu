@@ -50,7 +50,7 @@ You can build directly from the [GitHub project](https://github.com/pascalgrimau
 docker build -t pascalgrimaud/ubuntu github.com/pascalgrimaud/docker-ubuntu.git
 ```
 
-Alternately, you can pull the image from [Docker Hub](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/) ;
+Alternately, you can pull the image from [Docker Hub](https://registry.hub.docker.com/u/pascalgrimaud/ubuntu/) :
 
 ```
 docker pull pascalgrimaud/ubuntu
