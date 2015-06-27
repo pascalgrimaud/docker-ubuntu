@@ -6,9 +6,13 @@
 # Information
 
 This image is used to set the locale to en_US.UTF-8.
+It is used as the base image for other projects.
 
 
-The Docker builds on [CircleCI](https://circleci.com)
+[![Circle CI](https://circleci.com/gh/pascalgrimaud/docker-ubuntu.svg?style=shield)]
+(https://circleci.com/gh/pascalgrimaud/docker-ubuntu)
+
+As you can see, the Docker builds on [CircleCI](https://circleci.com)
 get this error when you attempt to change the locale from an Ubuntu image :
 
 ```

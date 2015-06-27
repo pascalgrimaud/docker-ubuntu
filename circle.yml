@@ -1,0 +1,10 @@
+machine:
+  services:
+    - docker
+dependencies:
+  override:
+    - docker info
+    - docker build -t pascalgrimaud/ubuntu .
+test:
+  override:
+    - docker run -it pascalgrimaud/ubuntu echo "Hello World !"
